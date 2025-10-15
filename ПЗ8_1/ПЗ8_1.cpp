@@ -75,5 +75,10 @@ int main() {
     printUntilMinusOne(a, n);
 
     delete[] a;
+
+    wcout << L"\nНатисніть Enter, щоб вийти...";
+    wcin.ignore(std::numeric_limits<std::streamsize>::max(), L'\n');
+    wcin.get();
+    
     return 0;
 }
