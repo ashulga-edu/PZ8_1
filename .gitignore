@@ -1,0 +1,33 @@
+# ===== Visual Studio / VC++ =====
+.vs/
+.ipch/
+ipch/
+*.ipch
+*.suo
+*.user
+*.vcxproj.user
+*.VC.db
+*.opendb
+
+# ===== Build artifacts =====
+Debug/
+Debug*/
+Release/
+Release*/
+x64/
+x86/
+*.obj
+*.pdb
+*.idb
+*.iobj
+*.ipdb
+*.ilk
+*.tlog
+*.log
+*.pch
+
+# ===== Binaries =====
+*.exe
+*.dll
+*.lib
+*.exp
